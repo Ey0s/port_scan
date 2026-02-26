@@ -1,7 +1,7 @@
 import socket
 import threading
 
-class TCP_scanner:
+class TCPScanner:
     def __init__(self,target,timeout=1):
         self.target=target
         self.timeout=timeout
