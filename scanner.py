@@ -3,7 +3,7 @@ import threading
 
 
 class TCPScanner:
-    def __init__(self, target, timeout=1):
+    def __init__(self, target, timeout=3):
         self.target = target
         self.timeout = timeout
         self.open_ports = []
