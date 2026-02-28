@@ -31,6 +31,14 @@ def main():
         service = detect_service(port)
         banner = grab_banner(target, port)
         vuln = guess_vulnerability(banner)
+        with open("scan_results.csv", "a") as f:
+            f.write(f"{target},{port},{service}")
+            if banner:
+                f.write(f",{banner}")
+            if vuln:
+                f.write(f",{vuln}")
+            f.write("\n")
+
 
         print(f"Port: {port}")
         print(f"Service: {service}")
