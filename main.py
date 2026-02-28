@@ -6,10 +6,10 @@ from vuln_guess import guess_vulnerability
 
 def main():
     print("=" * 50)
-    print("Simple Network Port Scanner")
+    print("Simple Network Port_Scanner")
     print("=" * 50)
 
-    target = input("Enter target IP or hostname: ")
+    target = input("Enter target IP or Hostname: ")
 
     start_port = int(input("Start Port: "))
     end_port = int(input("End Port: "))
