@@ -83,6 +83,5 @@ Only scan systems you own or are explicitly authorized to test. Unauthorized sca
 ## Future Improvements
 - Add argument parsing (`argparse`) instead of interactive prompts
 - Add timeout and thread-pool controls from CLI
-- Add CSV/JSON output export
 - Expand service fingerprints and vulnerability rule set
 - Add unit tests
